@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+
+# npm logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment Files
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Frontend build directory
+client/build/
+client/.env.local
+client/.env.*.local
+
+# Backend build directory
+server/node_modules/
+server/build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Operating System Files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*.poppins-regular {
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+/*navbar css*/
+.navbar{
+  font-family: "Poppins",sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px grey;
+  --webkit-box-shadow:0px 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+.nav-link{
+  font-weight: 300 !important;
+}
+.active{
+  border-bottom:1px solid grey;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'robot',sans-serif;
+  letter-spacing:3px;
+}
+/*footer*/
+.footer{
+  color:white;
+  padding: 25px;
+  background: black;
+  background: --webkit-linear-gradient(
+    to right,
+    #434343,
+    black
+  );
+  background: linear-gradient(to right,#434343,black);
+}
+.a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color:white;
+  border-bottom: 1px solid white;
+}
+/**********************Page not found css **************************/
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-heading{
+  font-weight: normal;
+}
+.btn{
+  color: black;
+  border: 1px solid balck;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+/********************* About**********************/
+.abt{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+.abt p{
+  margin-right: 20px;
+  display: inline;
+}
+/****** contact**********/
+
+.cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+    flex-wrap: wrap;
+
+}
+.contact h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/*******register*************/
+.product-link{
+  text-decoration: none;
+  color: black !important;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+/* Ensure the navbar is responsive */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add some spacing between nav items */
+.nav-item {
+  margin-left: 20px;
+}
+
+/* Hide search input in mobile */
+.nav-item .search-input {
+  display: none;
+}
+
+/* Show search input in desktop */
+@media (min-width: 992px) {
+  .nav-item .search-input {
+    display: block;
+  }
+}
+
+/* Adjust the logo image size */
+.logo-img {
+  width: 40px;
+  height: auto;
+}
+/**logib*/
+
