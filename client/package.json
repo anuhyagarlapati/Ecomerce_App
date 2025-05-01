@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "antd": "^5.24.8",
     "axios": "^1.8.4",
+    "bootstrap": "^5.3.5",
     "braintree-web": "^3.118.2",
     "braintree-web-drop-in-react": "^1.2.1",
     "cors": "^2.8.5",
