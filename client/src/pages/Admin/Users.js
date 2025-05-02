@@ -1,5 +1,4 @@
 import React from 'react'
-import { Last } from 'react-bootstrap/esm/PageItem'
 import Layout from '../../components/layout/Layout'
 import AdminMenu from '../../components/layout/AdminMenu'
 

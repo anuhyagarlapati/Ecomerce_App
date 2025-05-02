@@ -1,4 +1,3 @@
-import React from 'react'
 export const Prices=[
     {
         _id:0,

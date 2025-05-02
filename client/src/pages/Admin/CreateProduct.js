@@ -16,7 +16,7 @@ const CreateProduct = () => {
   const [price, setPrice] = useState("");
   const [category, setCategory] = useState("");
   const [quantity, setQuantity] = useState("");
-  const [shipping, setShipping] = useState("");
+  const [ setShipping] = useState("");
 
   // Get all category
   const getAllCategory = async () => {

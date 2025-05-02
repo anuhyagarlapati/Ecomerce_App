@@ -8,7 +8,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 const CartPage = () => {
     const [cart,setCart]=useCart()
-    const [auth,setAuth]=useAuth()
+    const [auth]=useAuth()
     const navigate=useNavigate()
     const [clientToken,setClientToken]=useState("")
     const [instance,setInstance]=useState("")
@@ -57,7 +57,7 @@ const CartPage = () => {
         try {
             setLoading(true)
             const {nonce}=await instance.requestPaymentMethod();
-            const {data}=await axios.post('/api/v1/product/braintree/payment',{
+            await axios.post('/api/v1/product/braintree/payment',{
                 nonce,cart
             })
             setLoading(false)
